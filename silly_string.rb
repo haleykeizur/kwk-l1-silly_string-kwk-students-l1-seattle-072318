@@ -34,7 +34,7 @@ puts "#{big_word} " + "wow " + "mom"
 "#{big_word} + wow + mom" 
 new_letter_count = bigger_word.size
 
-puts "There are now #{big_word.length} + "wow".length + "mom".length in #{bigger_word}"
+puts "There are now #{big_word.length} in #{bigger_word}"
 
 # Challenge 6: Capitalize this sentence properly
 
