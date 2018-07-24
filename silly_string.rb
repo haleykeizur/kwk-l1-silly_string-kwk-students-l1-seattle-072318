@@ -25,7 +25,7 @@ big_word = "supercalifragilisticexpialidocious"
 
 letter_count = big_word # Put a . after big_word and use a String method.
 
-puts "There are #{big_word.length} in #{big_word}"
+puts "There are #{big_word.size} in #{big_word}"
 
 # Challenge 5: Add "wow" and "mom" to big_word
 
@@ -34,7 +34,7 @@ puts "#{big_word} " + "wow " + "mom"
 "#{big_word} + wow + mom" 
 new_letter_count = bigger_word.size
 
-puts "There are now #{big_word.length} in #{bigger_word}"
+puts "There are now #{big_word.size} in #{bigger_word}"
 
 # Challenge 6: Capitalize this sentence properly
 
