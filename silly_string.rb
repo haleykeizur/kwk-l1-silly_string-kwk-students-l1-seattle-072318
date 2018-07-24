@@ -32,7 +32,7 @@ puts "There are #{letter_count} in #{big_word}"
 bigger_word = "#{big_word}" + "wow" + "mom"
 puts "#{big_word}" + "wow" + "mom"
 "#{big_word} + wow + mom" 
-new_letter_count = "supercalifragilisticexpialidocious + wow + mom".length
+new_letter_count = "#{bigger_word}".length
 
 puts "There are now #{new_letter_count} in #{bigger_word}"
 
